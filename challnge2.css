@@ -1,0 +1,247 @@
+
+
+body{
+    margin: 0px;
+}
+.container{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#h21{
+    margin-left: 150px;
+    margin-top: 150px;
+    align-items: center;
+    font-family: Fraunces;
+    color:  hsl(212, 27%, 19%);
+    line-height: 35px;
+    font-size: 30px;
+    
+}
+#p1{
+    margin-top: 38px ;
+    margin-left:150px ;
+    align-items: center;
+    font-family: Barlow;
+    color:  hsl(213, 9%, 39%);
+    font-size: 16px;
+    line-height: 30px;
+}
+#h22{
+    margin-left:150px;
+    margin-top:150px;
+    align-items: center;
+    font-family: Fraunces;
+    color:  hsl(212, 27%, 19%);
+    line-height: 35px;
+    font-size: 30px;
+    
+}
+#p2{
+    margin-top: 38px ;
+    margin-left:150px ;
+    align-items: center;
+    font-family: Barlow;
+    color:  hsl(213, 9%, 39%);
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#h23{
+    margin-left:150px;
+    margin-top:150px;
+    align-items: center;
+    font-family: Fraunces;
+    color:hsl(167, 40%, 24%);
+    line-height: 35px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+#p3{
+    margin-top: 34px ;
+    margin-left:150px ;
+    align-items: center;
+    text-align: center;
+    font-family: Barlow;
+    color:  hsl(167, 40%, 24%);
+    font-size: 16px;
+    line-height: 30px;
+}
+.img1{
+    position: relative;
+}
+.text1{
+    position: absolute;
+    top: 1760px;
+}   
+#h24{
+    margin-left:150px;
+    margin-top:160px;
+    align-items: center;
+    font-family: Fraunces ;
+    color:hsl(198, 62%, 26%);
+    line-height: 35px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+#p4{
+    margin-top: 34px ;
+    margin-left:150px ;
+    align-items: center;
+    text-align: center;
+    font-family: Barlow;
+    color:  hsl(198, 62%, 26%);
+    font-size: 16px;
+    line-height: 30px;
+}
+.img2{
+    position: relative;
+
+}
+.text2{
+    position: absolute;
+    top: 1760px;
+    left: 650px;
+}
+#h25{
+    margin-top: 150px;
+    letter-spacing: 3px;
+    font-family: Fraunces;
+    position: relative;
+    left:450px ;
+    color: hsl(210, 4%, 67%);
+}
+.center{
+    margin-top: 170px;
+}
+.clients{
+    margin-top: 80px;
+    display: flex; 
+     align-items: center; 
+      margin-left: 120px;
+      gap: 50px; 
+    
+  
+}
+.logo{ 
+    
+    display: flex; 
+      flex-direction: column; 
+      text-align: center; 
+      align-items: center; 
+    
+   }
+   .logo img{
+    border-radius: 50%;
+   }
+   .logo p{
+    margin-top: 50px;
+    font-family:Barlow ;
+    color: hsl(232, 10%, 55%);
+    line-height: 30px;
+
+   }
+   .logo h2{
+    margin-top: 50px;
+    font-family: Fraunces;
+    font-size: 18px;
+   }
+   .logo h5{
+    margin-top:-5px;
+    color: hsl(210, 4%, 67%);
+   }
+   .footer{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 100px;
+  
+   }
+   .footbar{
+    height:250px;
+    width: 1270px;
+    background-color:  hsl(167, 33%, 58%);
+    
+   }
+   .footbar h2{
+    padding-left: 560px;
+    padding-top: 50px; 
+    font-family:Barlow ;
+    color:  hsl(167, 40%, 24%);
+    font-size: 30px;
+
+   }
+
+
+   .footbar p {
+    padding-left: 500px;
+    padding-top: 10px; 
+    font-size: 18px;
+    font-family:Barlow ;
+    color:  hsl(167, 40%, 24%);
+   }
+    nav{
+        display :flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left:20px ;
+        padding-right: 20px;
+        background-color:#3DBEFF ;
+        padding-top: 20px;
+    }
+    .mlogo{
+        color: white;
+        font-family:Fraunces;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px 20px;
+       font-family:Barlow ;
+        color: white;
+    }
+    nav ul{
+        margin-left: 520px;
+    }
+    nav button{
+        margin-right: 30px;
+        padding: 18px 30px;
+        font-family:Fraunces;
+        border-radius: 37%;
+        border: none;
+        color: hsl(212, 27%, 19%);
+    }
+    .imgg{
+        position: relative;
+    }
+   
+  #head{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #3DBEFF;
+  }
+   h1{
+    color:white;
+    font-size: 50px;
+    font-family:Fraunces;
+    letter-spacing: 10px;
+  }
+  .social-media{
+    margin-top: 80px;
+    display: flex; 
+     align-items: center; 
+      margin-left:550px;
+      gap: 25px; 
+    
+  }
+  .loogo{ 
+   
+    display: flex; 
+      flex-direction: column; 
+      text-align: center; 
+      align-items: center; 
+  }
